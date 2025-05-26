@@ -139,28 +139,27 @@
 	
 				<footer id="footer">
 					
-					<!-- <section>
+					<section>
 						<h2 style="text-align: center;"><br>Contact us<br></h2>
 						
 						<form method="post" action="#">
 							<div class="fields">
 								<div class="field">
 									<label for="name">Name</label>
-									<input type="text" name="name" id="name" />
+									<input type="text" name="name" id="name" onclick="Alert()" />
 								</div>
-							
-								<-- <div class="field">
+								<!-- <div class="field">
 									<label for="email">Email</label>
 									<input type="text" name="email" id="email" />
-								</div> ->
+								</div> -->
 							
 								<div class="field">
 									<label for="message">Message</label>
-									<textarea name="message" id="message" rows="3"></textarea>
+									<textarea name="message" id="message" rows="3" onclick="Alert()"></textarea>
 								</div>
 							</div>
 							<ul class="actions">
-								<li><input type="submit" value="Send Message" /></li>
+								<li><input type="submit" value="Send Message" onclick="Alert()"/></li>
 							</ul>
 						</form>
 					</section>
@@ -180,7 +179,8 @@
 							
 							</ul>
 						</section>
-					</section> -->
+					</section>
+
 				</footer>
 				<!-- Copyright -->
 					<div id="copyright">
@@ -198,5 +198,10 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 
+			<script>
+				function Alert(){
+					alert("***ERROR***\nThis text area is under construction.\nThank you for your patience.");
+				}
+			</script>
 	</body>
 </html>
