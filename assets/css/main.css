@@ -3283,6 +3283,15 @@ input, select, textarea {
 			}
 
 		}
+		@media screen and (max-width: 450px) {
+
+			#wrapper > .bg {
+			background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/ks_icon2.webp");
+				background-size: 100%;
+				
+			}
+
+		}
 
 		@media screen and (max-width: 600px){
 			#wrapper > .bg.fixed {
