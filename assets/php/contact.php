@@ -6,15 +6,15 @@ ini_set('display_errors', 1);
 $name= $_POST["name"];
 $email= $_POST["email"];
 $message= $_POST["message"];
-$subject= "KS Website Inquery";
-$txt = "You have received an e-mail from: " .$name.".\n\n\n\n".$message;
+// $subject= "KS Website Inquery";
+$txt = "You have received an email from: " .$name.".\n\n\n\n".$message;
 
 
 if(mail(
 
 	//-----------------------------EDIT HERE-------------------------------------------------------------------------->
   'cukappasigma2023@hotmail.com', // To email address
-  $subject, // Subject
+  // $subject, // Subject
   $txt, // Message body
   "From: " .$email // Message headers
 )) {
