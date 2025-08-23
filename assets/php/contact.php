@@ -13,7 +13,7 @@ $txt = "You have received an e-mail from: " .$name.".\n\n\n\n".$message;
 if(mail(
 
 	//-----------------------------EDIT HERE-------------------------------------------------------------------------->
-  'cukappasigma1869@gmail.com', // To email address
+  'cukappasigma2023@hotmail.com', // To email address
   $subject, // Subject
   $txt, // Message body
   "From: " .$email // Message headers
