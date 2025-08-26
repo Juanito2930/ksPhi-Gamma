@@ -4074,7 +4074,7 @@ color:#000;
 
 			#footer a:hover {
 				border-bottom-color: transparent;
-				color: #18bfef !important;
+				color: #ff0000 !important;
 			}
 
 		#footer strong, #footer b {
@@ -4117,8 +4117,8 @@ color:#000;
 			#footer input[type="button"]:hover,
 			#footer button:hover,
 			#footer .button:hover {
-				box-shadow: inset 0 0 0 2px #18bfef;
-				color: #18bfef !important;
+				box-shadow: inset 0 0 0 2px #ff0000;
+				color: #ff0000 !important;
 			}
 
 			#footer input[type="submit"].primary,
@@ -4136,7 +4136,7 @@ color:#000;
 				#footer input[type="button"].primary:hover,
 				#footer button.primary:hover,
 				#footer .button.primary:hover {
-					background-color: #18bfef;
+					background-color: #ef1818;
 				}
 
 		#footer label {
@@ -4156,7 +4156,7 @@ color:#000;
 			#footer input[type="email"]:focus,
 			#footer select:focus,
 			#footer textarea:focus {
-				border-color: #18bfef;
+				border-color: #ff0000;
 			}
 
 		#footer select {
@@ -4191,7 +4191,7 @@ color:#000;
 
 		#footer input[type="checkbox"]:focus + label:before,
 		#footer input[type="radio"]:focus + label:before {
-			border-color: #18bfef;
+			border-color: #ff0000;
 		}
 
 		#footer ::-webkit-input-placeholder {
@@ -4219,7 +4219,7 @@ color:#000;
 		}
 
 		#footer ul.icons li a.icon:hover:before {
-			color: #18bfef;
+			color: #ff0000;
 		}
 
 		#footer ul.icons.alt li .icon:before {
@@ -4227,7 +4227,7 @@ color:#000;
 		}
 
 		#footer ul.icons.alt li a.icon:hover:before {
-			box-shadow: inset 0 0 0 2px #18bfef;
+			box-shadow: inset 0 0 0 2px #ff0000;
 		}
 
 		#footer header.major .date:before, #footer header.major .date:after {
@@ -4267,18 +4267,18 @@ color:#000;
 		}
 
 			#footer .pagination a:hover {
-				color: #18bfef !important;
-				border-color: #18bfef;
+				color: #ff0000 !important;
+				border-color: #ff0000;
 				z-index: 1;
 			}
 
 				#footer .pagination a:hover + a,
 				#footer .pagination a:hover + span {
-					border-left-color: #18bfef;
+					border-left-color: #ef1818;
 				}
 
 			#footer .pagination a.active {
-				background-color: #e2e2e2;
+				background-color: #ff0303;
 			}
 
 		#footer .pagination span {
