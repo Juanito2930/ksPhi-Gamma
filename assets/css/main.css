@@ -3983,6 +3983,7 @@ color:#000;
 
 				#main > .posts > article > :last-child {
 					margin-bottom: 0;
+					text-align: center;
 				}
 
 				#main > .posts > article:nth-child(2n - 1) {
